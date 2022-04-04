@@ -4,6 +4,7 @@ import Menu from "./Components/Menu/Menu"
 import RockFinder from "./Components/RockFinder/RockFinder"
 import RoutesList from "./Components/RoutesList/RoutesList"
 import Map from "./Components/Map/Map"
+import Footer from "./Components/Footer/Footer"
 
 function App() {
 	return (
@@ -12,7 +13,8 @@ function App() {
 			<Header />
 			<RockFinder />
 			<RoutesList />
-			<Map/>
+			<Map />
+			<Footer />
 		</div>
 	)
 }
