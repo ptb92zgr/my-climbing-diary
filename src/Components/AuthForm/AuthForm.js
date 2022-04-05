@@ -2,9 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import Button from "../Button/Button"
 
-const StyledAuthForm = styled.form`
-	background-color: orange;
-`
+const StyledAuthForm = styled.form``
 
 const StyledInput = styled.input`
 	background-color: #999;
@@ -18,7 +16,7 @@ function AuthForm() {
 		<StyledAuthForm>
 			<StyledInput type='email' placeholder='Email' />
 			<StyledInput type='password' placeholder='Hasło' />
-			<Button />
+			<Button></Button>
 		</StyledAuthForm>
 	)
 }

@@ -6,12 +6,16 @@ const StyledMenuList = styled.div`
 	width: 100%;
 	display: flex;
 	flex-direction: column;
+	position: fixed;
+	font-size:20px ;
 `
 
 const StyledMenuItem = styled.a`
 	width: 33.33%;
 	color: white;
 	width: 100%;
+	text-decoration:none;
+	text-transform: uppercase;
 `
 
 function MenuList() {
